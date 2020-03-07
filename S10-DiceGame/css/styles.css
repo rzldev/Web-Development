@@ -1,0 +1,30 @@
+body {
+  background-color: #333333;
+  color: #f35588;
+}
+
+.container {
+  padding: 3% 0;
+  text-align: center;
+}
+
+.my-info {
+  font-size: 4rem;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+}
+
+.player {
+  font-size: 2.5rem;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 3%;
+}
+
+.dice {
+  width: 40%;
+  margin-top: 3%;
+}
+
+.footer {
+  margin-top: 10%;
+}
