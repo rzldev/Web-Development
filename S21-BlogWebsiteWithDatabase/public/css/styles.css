@@ -1,0 +1,31 @@
+/* index */
+.padding-2-5 {
+  padding: 2% 7%;
+}
+
+.container-fluid {
+  padding-right: 10%;
+}
+
+.container-fluid p {
+  margin-bottom: 2%;
+}
+
+footer {
+  width: 100%;
+  color: white;
+  padding: 1%;
+  text-align: center;
+  background-color: #88e1f2;
+  position: absolute;
+  bottom: 0;
+}
+
+/* compose */
+.input-label {
+  font-weight: bold;
+}
+
+.margin-1 {
+  margin-top: 1%;
+}
