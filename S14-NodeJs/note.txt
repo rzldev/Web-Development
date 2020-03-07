@@ -1,0 +1,31 @@
+// Commands on hyper terminal
+
+// Change directory
+cd <directory>
+
+// Print list folder
+ls
+
+// Print current directory
+pwd
+
+// Making directory
+mkdir <directory>
+
+// Making files
+touch <file>
+
+// Run file with node
+node <file>
+
+// Run node command line
+node
+
+// Clean the command line
+clear
+
+// Create a management library packages with npm
+npm init
+
+// Add a library packages with npm
+npm install <package-name>
