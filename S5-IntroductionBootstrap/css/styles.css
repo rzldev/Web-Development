@@ -1,0 +1,79 @@
+body {
+  font-family: "Montserrat";
+}
+
+#top {
+  background-color: #88e1f2;
+  color : white;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.heading-title {
+  font-size: 3.2rem;
+  color: white;
+}
+
+.navbar {
+  font-family: "Ubuntu";
+  padding: 0 0 4.5rem 0;
+}
+.navbar-brand {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+.playstore {
+  background-color: white;
+}
+
+.img-minecraft {
+  width: 70%;
+  /* transform: rotate(45deg) */
+}
+
+.download-btn {
+  margin: 5% 3% 3% 0;
+}
+
+#middle {
+  color : black;
+  padding: 5% 5% 5% 5%;
+}
+
+.middle-item {
+  text-align: center;
+  padding: 5%;
+}
+
+.mid-img {
+  color: #05dfd7;
+  padding: 3% 0 8% 0;
+}
+
+.mid-img:hover {
+  color: #88e1f2;
+}
+
+.mid-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.mid-description {
+  color: #8f8f8f;
+}
