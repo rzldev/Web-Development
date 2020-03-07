@@ -1,0 +1,187 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #88e1f2;
+  color: white;
+  position: relative;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.heading-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.navbar {
+  font-family: "Ubuntu";
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+}
+
+.container-fluid {
+  padding: 3% 10% 20%;
+}
+
+.container {
+  padding: 3% 0;
+}
+
+.playstore {
+  background-color: white;
+}
+
+.img-minecraft {
+  width: 70%;
+  /* transform: rotate(45deg) */
+  right: 10%;
+  position: absolute;
+}
+
+.download-btn {
+  margin: 5% 2% 3% 0;
+}
+
+@media (max-width: 1000px) {
+  #title {
+    background-color: #88e1f2;
+    color: white;
+    position: relative;
+    text-align: center;
+  }
+
+  .img-minecraft {
+    position: static;
+  }
+}
+
+#features {
+  color: black;
+  padding: 5% 5% 5% 5%;
+  background-color: white;
+  position: relative;
+}
+
+.features-item {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-img {
+  color: #05dfd7;
+  padding: 3% 0 8% 0;
+}
+
+.feature-img:hover {
+  color: #88e1f2;
+}
+
+.feature-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.feature-description {
+  color: #8f8f8f;
+}
+
+#testimonials {
+  background-color: #05dfd7;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.testimonial-caption {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.testimonial-image {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 100%;
+  background: white;
+  display: inline-block;
+}
+
+.testimonial-name {
+  font-size: 1.2rem;
+  display: inline-block;
+  margin-left: 1%;
+}
+
+.carousel-item {
+  padding: 7% 15% 7%;
+}
+
+#press {
+  text-align: center;
+  background-color: #05dfd7;
+  padding: 0 15% 5%;
+}
+
+.img-press {
+  width: 20%;
+  margin-right: 5%;
+}
+
+#pricing {
+  text-align: center;
+}
+
+.card {
+  margin: 0 2%;
+}
+
+.card-header {
+  background-color: #e1f4f3;
+}
+
+.pricing-heading {
+  font-size: 1.5rem;
+}
+
+#footer {
+  text-align: center;
+  background-color: #05dfd7;
+  color: white;
+  padding: 5% 12%;
+}
+
+.footer-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+#copyright {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  padding: 5% 0 2% 0;
+}
+
+.copyright-icon {
+  padding: 1% 0.5%;
+}
