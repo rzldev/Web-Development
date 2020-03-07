@@ -1,0 +1,119 @@
+/* css */
+/******************************************TAG SELECTORS******************************************/
+body {
+  text-align: center;
+  margin: 0px;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #72b5b7;
+  border-width: 5px;
+  width: 10%;
+  margin: 50px auto;
+}
+h1 {
+  color: #66BFBF ;
+  font-family: 'Merriweather', serif;
+  font-size: 3.125rem;
+}
+h2 {
+  color: #66BFBF;
+  font-size: 1.5625rem;
+  font-family: 'Montserrat', sans-serif;
+}
+h3 {
+  color: #11999E;
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  color: #40514E;
+}
+
+
+/******************************************CLASS SELECTORS******************************************/
+.top-container {
+  background-color: #beebe9;
+  position: relative;
+  padding-top: 150px;
+  font-family: "Merriweather", serif;
+  display: absolute;
+}
+.middle-container {
+  margin-top: 50px;
+}
+.bottom-container {
+  background-color: #beebe9;
+  line-height: 2;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.top-cloud {
+  width: 15%;
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+  width: 15%;
+  position: absolute;
+  left: 300px;
+}
+.mountain {
+  width: 70%;
+}
+.profile {
+  width: 50%;
+  margin: 30px auto;
+}
+.skills {
+  line-height: 2;
+}
+.skill-row {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+}
+.img-profile {
+  width: 25%;
+}
+.img-android {
+  width: 25%;
+  float: left;
+  margin-right: 30px
+}
+.img-web {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.developer {
+  font-weight: normal;
+}
+.contact-me {
+  width: 50%;
+  margin: 30px auto;
+  line-height: 2;
+}
+.btn {
+  background-color: #11999E;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.copyright {
+  color: #11999E;
+}
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: #11999E;
+  margin: auto 10px;
+}

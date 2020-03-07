@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Positioning</title>
+    <style media="screen">
+
+            body {
+              margin: 0px;
+            }
+
+            .red {
+              width: 100px;
+              height: 100px;
+              background-color: red;
+              position : relative;
+              display: inline-block;
+              top: 50px;
+              left: 212px
+            }
+
+            .blue {
+              width: 100px;
+              height: 100px;
+              background-color: blue;
+              position : relative;
+              display: inline-block;
+              top: 50px;
+              right: 100px;
+            }
+
+            .yellow {
+              width: 100px;
+              height: 100px;
+              background-color: yellow;
+              position : relative;
+              display: inline-block;
+              top: 50px;
+              right: 100px;
+            }
+
+            .absolute-red {
+              width: 100px;
+              height: 100px;
+              background-color: red;
+              position : absolute;
+              top: 350px;
+              left: 200px
+            }
+
+            .absolute-blue {
+              width: 100px;
+              height: 100px;
+              background-color: blue;
+              position : absolute;
+              top: 250px;
+              left: 100px;
+            }
+
+            .absolute-yellow {
+              width: 100px;
+              height: 100px;
+              background-color: yellow;
+              position : absolute;
+              top: 150px;
+              left: 0px;
+            }
+
+            .fixed-box {
+              background-color: gray;
+              width: 100%;
+              height: 50px;
+              position: fixed;
+              top: 0px;
+            }
+
+    </style>
+  </head>
+  <body>
+    <div class="red"></div>
+    <div class="blue"></div>
+    <div class="yellow"></div>
+    <div class="absolute-red"></div>
+    <div class="absolute-blue"></div>
+    <div class="absolute-yellow"></div>
+    <div class="fixed-box"></div>
+  </body>
+</html>
